@@ -1,0 +1,9 @@
+public enum VelocityUnit: Double {
+    case ms = 1
+    case kmph = 3.6
+    case mph = 2.23694
+    
+    static var defaultScale: Double {
+        return VelocityUnit.ms.rawValue
+    }
+}

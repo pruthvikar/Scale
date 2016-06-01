@@ -70,6 +70,7 @@
 		6A36CB21C2ECAF4BFEDDDF70B1D1EAAA /* Pods-Scale_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scale_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6E9D532BCBB1AED76B1E36B6DE18A25B /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		80E737F70F1BE01F92BB7C7F831F594E /* Weight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		844CCBF61CFEC58100532CBA /* Velocity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Velocity.swift; sourceTree = "<group>"; };
 		84C807A6EEA206A4BC1B1197C2E4BD3A /* Pods-Scale_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		905EE678909B13EFC04D353378B2E631 /* Scale-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Scale-prefix.pch"; sourceTree = "<group>"; };
 		9260B847BF962333E872B3A0DA710A3C /* Pods-Scale_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scale_Example-resources.sh"; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				D216935E1C3E13B400EB0DAF /* Angle.swift */,
+				844CCBF61CFEC58100532CBA /* Velocity.swift */,
 				D216935F1C3E13B400EB0DAF /* Area.swift */,
 				D21693601C3E13B400EB0DAF /* Energy.swift */,
 				D21693581C3E105200EB0DAF /* Metric.swift */,
@@ -392,7 +394,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -677,6 +679,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDD7C5F0C1164CB825E87A72CD5CEDE5 /* Pods-Scale_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -708,6 +711,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF3987290FDC6FBFBB6A71B3F1B1D698 /* Pods-Scale_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

@@ -112,7 +112,7 @@ func action() throws {
     let templatePath = definitionPath().append("Template.t").correctPath
     let template = try read(templatePath)
 
-    let outputPath = currentDirectory().parentDirectory().append("Output")
+    let outputPath = currentDirectory().parentDirectory().parentDirectory().append("Sources")
 
     for defFileName in try defFileNames() {
         print(defFileName)
